@@ -1,0 +1,13 @@
+#微服务注册到zookeeper注册中心的端口号
+server:
+  port: 8004
+
+# 微服务的别名
+spring:
+  application:
+    name: springcloud-payment-service
+
+#    连接zookeeper服务注册中心
+  cloud:
+    zookeeper:
+      connect-string: 192.168.115.128:2181

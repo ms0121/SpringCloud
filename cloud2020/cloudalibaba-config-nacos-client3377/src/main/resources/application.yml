@@ -1,0 +1,7 @@
+
+# 可以随意的切换开发环境还是测试环境
+spring:
+  profiles:
+    active: info
+#    active: test  测试环境
+#    active: dev  开发环境
