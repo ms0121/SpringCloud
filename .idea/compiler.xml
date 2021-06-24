@@ -46,6 +46,7 @@
         <module name="cloud-api-commons" />
         <module name="cloud-consumer-feign-order80" />
         <module name="springcloud-consumer-fegin-hystrix-order80" />
+        <module name="alibaba-nacos-consumer83" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
         <module name="cloud-consumer-order80" />
         <module name="cloudalibaba-sentinel-service8401" />
@@ -58,6 +59,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-nacos-consumer83" target="1.8" />
       <module name="alibaba-nacos-provider9001" target="1.8" />
       <module name="alibaba-nacos-provider9002" target="1.8" />
       <module name="cloud-api-commons" target="1.8" />
