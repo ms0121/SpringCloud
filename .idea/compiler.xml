@@ -22,6 +22,7 @@
         <module name="cloud-providor-payment8001" />
         <module name="seata-storage2-service2002" />
         <module name="springcloud-consumer-consul-order80" />
+        <module name="alibaba-nacos-config-client3377" />
         <module name="springcloud-consumer-feign-order80" />
         <module name="springcloud-stream-rabbitmq-consume8802" />
         <module name="springcloud-stream-rabbitmq-provider8801" />
@@ -59,6 +60,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-nacos-config-client3377" target="1.8" />
       <module name="alibaba-nacos-consumer83" target="1.8" />
       <module name="alibaba-nacos-provider9001" target="1.8" />
       <module name="alibaba-nacos-provider9002" target="1.8" />
