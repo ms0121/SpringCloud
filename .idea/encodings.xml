@@ -59,6 +59,8 @@
     <file url="file://$PROJECT_DIR$/cloud2021/cloud-providor-payment8001/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-api-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-api-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud2021/springcloud-config-center3344/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud2021/springcloud-config-center3344/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-consumer-consul-order80/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-consumer-consul-order80/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-consumer-fegin-hystrix-order80/src/main/java" charset="UTF-8" />
