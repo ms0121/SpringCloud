@@ -27,6 +27,7 @@
         <module>springcloud-consumer-fegin-hystrix-order80</module>
         <module>springcloud-gateway-gateway</module>
         <module>springcloud-gateway-gateway9527</module>
+        <module>springcloud-stream-rabbitmq-provider8801</module>
     </modules>
 
 
