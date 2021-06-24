@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  */
 
 @SpringBootApplication
-@EnableEurekaClient
+//@EnableEurekaClient
 public class StreamCloudMain8802 {
     public static void main(String[] args) {
         SpringApplication.run(StreamCloudMain8802.class);
