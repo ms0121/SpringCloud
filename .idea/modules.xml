@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SpringCloud.iml" filepath="$PROJECT_DIR$/.idea/SpringCloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud2021/alibaba-nacos-provider9001/alibaba-nacos-provider9001.iml" filepath="$PROJECT_DIR$/cloud2021/alibaba-nacos-provider9001/alibaba-nacos-provider9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud2020/cloud-api-commons/cloud-api-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" filepath="$PROJECT_DIR$/cloud2020/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" filepath="$PROJECT_DIR$/cloud2020/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" />

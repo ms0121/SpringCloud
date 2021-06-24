@@ -25,6 +25,7 @@
         <module name="springcloud-consumer-feign-order80" />
         <module name="springcloud-stream-rabbitmq-consume8802" />
         <module name="springcloud-stream-rabbitmq-provider8801" />
+        <module name="alibaba-nacos-provider9001" />
         <module name="cloud-eureka-server7001" />
         <module name="springcloud-provider-payment8002" />
         <module name="cloud-consumer-feign-hystrix-order80" />
@@ -56,6 +57,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba-nacos-provider9001" target="1.8" />
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order80" target="1.8" />
       <module name="cloud-consumer-feign-order80" target="1.8" />

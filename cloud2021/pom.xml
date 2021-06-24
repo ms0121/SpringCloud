@@ -31,6 +31,7 @@
         <module>springcloud-stream-rabbitmq-consume8802</module>
         <module>springcloud-stream-rabbitmq-consumer8803</module>
         <module>springcloud-config-center3344</module>
+        <module>alibaba-nacos-provider9001</module>
     </modules>
 
 
