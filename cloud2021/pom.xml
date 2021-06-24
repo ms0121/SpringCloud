@@ -28,6 +28,7 @@
         <module>springcloud-gateway-gateway</module>
         <module>springcloud-gateway-gateway9527</module>
         <module>springcloud-stream-rabbitmq-provider8801</module>
+        <module>springcloud-stream-rabbitmq-consume8802</module>
     </modules>
 
 

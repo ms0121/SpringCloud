@@ -83,6 +83,8 @@
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-provider-payment8004/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-providerconsul-payment8006/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-providerconsul-payment8006/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud2021/springcloud-stream-rabbitmq-consume8802/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud2021/springcloud-stream-rabbitmq-consume8802/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-stream-rabbitmq-provider8801/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud2021/springcloud-stream-rabbitmq-provider8801/src/main/resources" charset="UTF-8" />
   </component>
