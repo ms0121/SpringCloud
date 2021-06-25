@@ -1,3 +1,5 @@
 spring:
   profiles:
-    active: dev  # 表示当前为开发环境
+    active: dev
+#    active: info   # 表示info环境
+#    active: dev  # 表示当前为开发环境
