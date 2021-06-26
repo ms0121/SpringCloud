@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/cloud2021/alibaba-nacos-consumer83/alibaba-nacos-consumer83.iml" filepath="$PROJECT_DIR$/cloud2021/alibaba-nacos-consumer83/alibaba-nacos-consumer83.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2021/alibaba-nacos-provider9001/alibaba-nacos-provider9001.iml" filepath="$PROJECT_DIR$/cloud2021/alibaba-nacos-provider9001/alibaba-nacos-provider9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2021/alibaba-nacos-provider9002/alibaba-nacos-provider9002.iml" filepath="$PROJECT_DIR$/cloud2021/alibaba-nacos-provider9002/alibaba-nacos-provider9002.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud2021/alibaba-nacos-sentinel-service8401/alibaba-nacos-sentinel-service8401.iml" filepath="$PROJECT_DIR$/cloud2021/alibaba-nacos-sentinel-service8401/alibaba-nacos-sentinel-service8401.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020/cloud-api-commons/cloud-api-commons.iml" filepath="$PROJECT_DIR$/cloud2020/cloud-api-commons/cloud-api-commons.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" filepath="$PROJECT_DIR$/cloud2020/cloud-consumer-feign-hystrix-order80/cloud-consumer-feign-hystrix-order80.iml" />
       <module fileurl="file://$PROJECT_DIR$/cloud2020/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" filepath="$PROJECT_DIR$/cloud2020/cloud-consumer-feign-order80/cloud-consumer-feign-order80.iml" />
