@@ -1,8 +1,12 @@
 package com.liu.cloud.controller;
 
+import com.alibaba.csp.sentinel.annotation.SentinelResource;
+import com.alibaba.nacos.client.naming.core.Balancer;
+import com.sun.deploy.security.BlockedException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.concurrent.TimeUnit;
@@ -90,6 +94,25 @@ public class SentinelController {
         int s = 10 / 0;
         return "testD + port: " + serverPort;
     }
+
+
+    @GetMapping("/testHotkey")
+    //限流的资源名称, 服务降级的方法
+    @SentinelResource(value = "testHokey", blockHandler = "deal_testHotkey")
+    public String testHotKey(@RequestParam(value = "p1", required = false) String p1,  // p1参数非必须
+                             @RequestParam(value = "p2", required = false) String p2){
+        return "===========testHotKey";
+    }
+    // 服务降级的方法
+    public String deal_testHotkey(String p1, String p2, BlockedException exception){
+        return "===========deal_testHotkey，，";
+    }
+
+
+
+
+
+
 
 
 }
