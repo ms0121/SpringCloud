@@ -1,15 +1,12 @@
 package com.liu.cloud.controller;
 
 import com.alibaba.csp.sentinel.annotation.SentinelResource;
-import com.alibaba.nacos.client.naming.core.Balancer;
-import com.sun.deploy.security.BlockedException;
+import com.alibaba.csp.sentinel.slots.block.BlockException;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.concurrent.TimeUnit;
 
 /**
  * @author lms
@@ -97,22 +94,15 @@ public class SentinelController {
 
 
     @GetMapping("/testHotkey")
-    //限流的资源名称, 服务降级的方法
-    @SentinelResource(value = "testHokey", blockHandler = "deal_testHotkey")
+    //限流的资源名称: testHotkey（用于配置在sentinel中的热点降级）, 服务降级的方法
+    @SentinelResource(value = "testHotkey", blockHandler = "deal_testHotkey")
     public String testHotKey(@RequestParam(value = "p1", required = false) String p1,  // p1参数非必须
                              @RequestParam(value = "p2", required = false) String p2){
         return "===========testHotKey";
     }
-    // 服务降级的方法
-    public String deal_testHotkey(String p1, String p2, BlockedException exception){
+    // 服务降级兜底的方法：如果上面出错了，直接返回当前的这个方法
+    public String deal_testHotkey(String p1, String p2, BlockException exception){
         return "===========deal_testHotkey，，";
     }
-
-
-
-
-
-
-
 
 }
