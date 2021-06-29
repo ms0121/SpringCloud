@@ -22,7 +22,7 @@ public class PaymentController {
 
     public static HashMap<Long, Payment> hashMap = new HashMap<>();
 
-    // 静态代码块
+    // 静态代码块,随着类的加载而执行一次
     static {
         hashMap.put(1L,new Payment(1L,"28a8c1e3bc2742d8848569891fb42181"));
         hashMap.put(2L,new Payment(2L,"bba8c1e3bc2742d8848569891ac32182"));

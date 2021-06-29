@@ -37,6 +37,7 @@
         <module>alibaba-nacos-sentinel-service8401</module>
         <module>alibaba-nacos-provider9003</module>
         <module>alibaba-nacos-provider9004</module>
+        <module>alibaba-sentinel-consumer84</module>
     </modules>
 
 
