@@ -35,6 +35,8 @@
         <module>alibaba-nacos-consumer83</module>
         <module>alibaba-nacos-config-client3377</module>
         <module>alibaba-nacos-sentinel-service8401</module>
+        <module>alibaba-nacos-provider9003</module>
+        <module>alibaba-nacos-provider9004</module>
     </modules>
 
 

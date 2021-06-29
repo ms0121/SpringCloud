@@ -9,7 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springcloud-config-center3344" />
         <module name="springcloud-providerconsul-payment8006" />
-        <module name="cloud-api-commons" />
+        <module name="springcloud-api-common" />
         <module name="cloudalibaba-provider-payment9004" />
         <module name="cloudalibaba-provider-payment9003" />
         <module name="cloudalibaba-provider-payment9002" />
@@ -27,12 +27,14 @@
         <module name="springcloud-stream-rabbitmq-consume8802" />
         <module name="springcloud-stream-rabbitmq-provider8801" />
         <module name="alibaba-nacos-provider9002" />
-        <module name="cloud-eureka-server7002" />
+        <module name="cloud-eureka-server7001" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="springcloud-gateway-gateway" />
         <module name="cloudalibaba-config-nacos-client3377" />
         <module name="alibaba-nacos-provider9001" />
+        <module name="alibaba-nacos-provider9003" />
+        <module name="alibaba-nacos-provider9004" />
         <module name="springcloud-consumer-order80" />
         <module name="springcloud-gateway-gateway9527" />
         <module name="springcloud-provider-hystrix-payment8001" />
@@ -42,8 +44,8 @@
         <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="cloudalibaba-consumer-nacos-order84" />
         <module name="cloudalibaba-consumer-nacos-order83" />
-        <module name="springcloud-api-common" />
-        <module name="cloud-eureka-server7001" />
+        <module name="cloud-eureka-server7002" />
+        <module name="cloud-api-commons" />
         <module name="cloud-consumer-feign-order80" />
         <module name="springcloud-consumer-fegin-hystrix-order80" />
         <module name="alibaba-nacos-consumer83" />
@@ -65,6 +67,8 @@
       <module name="alibaba-nacos-consumer83" target="1.8" />
       <module name="alibaba-nacos-provider9001" target="1.8" />
       <module name="alibaba-nacos-provider9002" target="1.8" />
+      <module name="alibaba-nacos-provider9003" target="1.8" />
+      <module name="alibaba-nacos-provider9004" target="1.8" />
       <module name="alibaba-nacos-sentinel-service8401" target="1.8" />
       <module name="cloud-api-commons" target="1.8" />
       <module name="cloud-consumer-feign-hystrix-order80" target="1.8" />
