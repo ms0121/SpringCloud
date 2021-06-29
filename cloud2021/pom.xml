@@ -9,9 +9,9 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>springcloud-service-parent</module>
-        <module>springcloud-service-goods</module>
-        <module>springcloud-nacos-provider</module>
+<!--        <module>springcloud-service-parent</module>-->
+<!--        <module>springcloud-service-goods</module>-->
+<!--        <module>springcloud-nacos-provider</module>-->
         <module>cloud-providor-payment8001</module>
         <module>springcloud-consumer-order80</module>
         <module>springcloud-api-common</module>
@@ -38,6 +38,7 @@
         <module>alibaba-nacos-provider9003</module>
         <module>alibaba-nacos-provider9004</module>
         <module>alibaba-sentinel-consumer84</module>
+        <module>alibaba-seata-order-service2001</module>
     </modules>
 
 
